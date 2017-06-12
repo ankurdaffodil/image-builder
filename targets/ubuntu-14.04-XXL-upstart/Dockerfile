@@ -1,4 +1,4 @@
-FROM circleci/build-image:ubuntu-14.04-XXL-1167-271bbe4
+FROM circleci/build-image:ubuntu-14.04-XXL-756-60ebe77
 
 ARG IMAGE_TAG
 
@@ -11,3 +11,4 @@ ADD targets/ubuntu-14.04-XXL-upstart/pkg-versions.sh /opt/circleci/bin/pkg-versi
 USER root
 
 CMD ["/sbin/init"]
+

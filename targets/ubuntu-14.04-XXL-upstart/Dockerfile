@@ -8,6 +8,6 @@ RUN echo $IMAGE_TAG > /opt/circleci/image_version
 
 ADD targets/ubuntu-14.04-XXL-upstart/pkg-versions.sh /opt/circleci/bin/pkg-versions.sh
 
-USER ubuntu
+USER root
 
 CMD ["/sbin/init"]

@@ -14,3 +14,5 @@ RUN mkdir /etc/ssl/private-copy; mv /etc/ssl/private/* /etc/ssl/private-copy/; r
 USER root
 
 CMD ["/sbin/init"]
+
+LABEL circleci.user="ubuntu"

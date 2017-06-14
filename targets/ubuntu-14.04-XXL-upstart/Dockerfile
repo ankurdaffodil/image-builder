@@ -15,4 +15,4 @@ USER root
 
 CMD ["/sbin/init"]
 
-LABEL circleci.user="ubuntu"
+LABEL com.circleci.user="ubuntu"

@@ -1,4 +1,4 @@
-FROM circleci/build-image:ubuntu-14.04-XXL-756-60ebe77
+FROM circleci/build-image:ubuntu-14.04-XXL-1167-271bbe4
 
 ARG IMAGE_TAG
 
